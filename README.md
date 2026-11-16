@@ -16,11 +16,7 @@ The dataset includes continuous track IDs across video frames for the following 
 
 ## Repository Structure
 ```text
-├── annotations.xml   # CVAT for video 1.1 XML file containing all bounding boxes and track IDs
-└── README.md         # Project documentation
+*  **├── annotations.xml   # CVAT for video 1.1 XML file containing all bounding boxes and track IDs**
+*  **└── README.md         # Project documentation**
 ```
 Additional Screenshots & screen recordings are added.
-2. **Convert for Training:** You can convert `annotations.xml` into standard training formats (such as **YOLO**, **COCO**, or **MOT**) using the [Datumaro](https://github.com) CLI or Python library:
-   ```bash
-   datum convert -if cvat -i annotations.xml -f coco -o ./coco_output
-   ```
